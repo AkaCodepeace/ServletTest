@@ -1,10 +1,8 @@
 import cn.codepeace.pojo.User;
 import cn.codepeace.service.Impl.UserServiceImpl;
-import cn.codepeace.service.UserService;
-import cn.codepeace.util.JdbcUtil;
 import org.junit.Test;
 
-import java.sql.Connection;
+
 
 public class UserTest {
 
@@ -13,7 +11,6 @@ public class UserTest {
         UserServiceImpl userService = new UserServiceImpl();
         User user = userService.login("peace", "123456");
         System.out.println(user.toString());
-        userService.register("aaa","987654");
-
+        userService.register("ccc","5555");
     }
 }
