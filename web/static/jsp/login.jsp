@@ -10,7 +10,7 @@
 <html>
 <head>
     <title>CodePeace</title>
-    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="../css/common.css">
 </head>
 <body>
