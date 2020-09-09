@@ -24,4 +24,7 @@
     <a href="static/jsp/register.jsp">注册</a>
 </form>
 </body>
+<script>
+
+</script>
 </html>
