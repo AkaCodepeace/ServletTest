@@ -11,7 +11,7 @@
 <head>
     <title>CodePeace</title>
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/common/common.css">
 </head>
 <body>
 <form action="${pageContext.request.contextPath}/login" method="post">
