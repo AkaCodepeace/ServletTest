@@ -1,16 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2020/9/10
-  Time: 17:52
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<link type="text/css" rel="stylesheet" href="/static/css/moudle/footer.css" >
+<footer>
+    <div class="foot"></div>
+</footer>
