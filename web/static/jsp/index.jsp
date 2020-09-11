@@ -9,10 +9,19 @@
 <html>
 <head>
     <title>CodePeace</title>
-    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" href="/static/css/common/common.css" >
+
 </head>
 <body>
-<p>ddd</p>
+<%@ include file="moudle/header.jsp" %>
+
+
+
+<div class="main">积分的克令肌肤</div>
+<%@ include file="moudle/footer.jsp" %>
 </body>
+
+<script type="text/javascript" src="/static/jq/jquery-3.5.1.min.js"/>
+<script type="text/javascript" src="/static/js/index.js"/>
 
 </html>

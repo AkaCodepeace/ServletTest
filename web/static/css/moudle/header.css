@@ -1,0 +1,15 @@
+.head{
+    width: 100%;
+    height: 200px;
+    background-color: #282828;
+}
+.imghead{
+    height: 200px;
+}
+.imglogo {
+    height: 200px;
+}
+
+.imgcenter{
+    text-align: center;
+}
