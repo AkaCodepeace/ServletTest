@@ -32,7 +32,7 @@
     </dependencies>
 
     <build>
-        <finalName>ROOT</finalName>
+        <finalName>CodePeace</finalName>
 
 
     </build>

@@ -1,6 +1,6 @@
-/*body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,*/
-/*legend,button,form,fieldset,input,textarea,p,blockquote,th,td */
-*{
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,
+legend,button,form,fieldset,input,textarea,p,blockquote,th,td
+{
     padding: 0;
     margin: 0;
 }
@@ -69,7 +69,7 @@ input::-moz-focus-inner { border: 0; padding: 0;}
 
 /*版心*/
 .main{
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
 }
 
