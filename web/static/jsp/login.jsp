@@ -11,9 +11,10 @@
 <head>
     <title>CodePeace</title>
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="../css/common/common.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/common/common.css">
 </head>
 <body>
+<%@include file="/static/jsp/moudle/header.jsp" %>
 <form action="${pageContext.request.contextPath}/login" method="post">
     <div>${error}</div>
     <label>用户名:</label>
@@ -23,6 +24,8 @@
     <input type="submit" value="登录">
     <a href="static/jsp/register.jsp">注册</a>
 </form>
+
+<%@include file="/static/jsp/moudle/footer.jsp" %>
 </body>
 <script>
 

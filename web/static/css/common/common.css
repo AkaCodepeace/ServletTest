@@ -67,8 +67,14 @@ input::-moz-focus-inner { border: 0; padding: 0;}
 
 .clear {clear:both;}
 
+/*版心*/
 .main{
     width: 1000px;
-
     margin: 0 auto;
+}
+
+#container {
+    position: relative;
+    padding-bottom: 150px;
+    box-sizing: border-box;
 }
