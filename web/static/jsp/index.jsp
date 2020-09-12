@@ -13,12 +13,15 @@
 
 </head>
 <body>
-<%@ include file="moudle/header.jsp" %>
+<div id="container">
+    <%@ include file="moudle/header.jsp" %>
 
 
 
-<div class="main">积分的克令肌肤</div>
-<%@ include file="moudle/footer.jsp" %>
+    <div class="main" style="height: 1000px;background-color: #000099">积分的克令肌肤</div>
+    <%@ include file="moudle/footer.jsp" %>
+</div>
+
 </body>
 
 <script type="text/javascript" src="/static/jq/jquery-3.5.1.min.js"/>
