@@ -1,6 +1,8 @@
 package cn.codepeace.filter;
 
 import javax.servlet.*;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class CharacterFilter implements Filter {
@@ -9,9 +11,11 @@ public class CharacterFilter implements Filter {
     }
 
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        servletRequest.setCharacterEncoding("utf-8");
-        servletResponse.setCharacterEncoding("utf-8");
-        filterChain.doFilter(servletRequest,servletResponse);
+        HttpServletRequest request = (HttpServletRequest)servletRequest;
+        HttpServletResponse response = (HttpServletResponse)servletResponse;
+        request.setCharacterEncoding("utf-8");
+        response.setCharacterEncoding("utf-8");
+        filterChain.doFilter(request,response);
     }
 
     public void destroy() {

@@ -1,9 +1,9 @@
-
-<link rel="stylesheet" type="text/css" href="/static/css/moudle/header.css">
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<link type="text/css" rel="stylesheet" href="/static/css/moudle/header.css">
 <header class="head">
-    <div class="main imgcenter">
-        <span><img class="imghead"  src="/static/img/head.png"/></span>
-        <span><img class="imglogo" src="/static/img/logo.png"></span>
+    <div class="main head_main">
+        <div >码 平 - CodePeace</div>
+        <div >享受代码中的乐趣 - Enjoy  the  code</div>
     </div>
 </header>
 
