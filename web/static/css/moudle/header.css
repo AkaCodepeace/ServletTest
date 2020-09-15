@@ -1,25 +1,29 @@
 .head{
-    width: 100%;
     height: 200px;
     background-color: #282828;
-
 }
-
 
 
 .head_main{
-    text-align: center;
     color: #ffffff;
-    font-family: Algerian;
+    text-align: center;
+    margin: 0 auto;
+
 }
 
 .head_main div:nth-child(1){
-    width: 800px;
-    font-size: 35px;
-    border-bottom: #ffffff solid 3px;
+    font-size: 3em;
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px 0;
+    border-bottom: #ffffff double 3px;
+    font-family: "Cambria Math";
 }
 
 .head_main div:nth-child(2){
-    font-size: 14px;
+    font-size: 1.3em;
+    word-spacing: 30px;
+    font-family: Cambria;
+    padding: 10px 0;
 }
 
