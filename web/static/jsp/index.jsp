@@ -19,7 +19,12 @@
     <%@include file="moudle/header.jsp" %>
 
     <div class="main">
-        <div style="background-color: #000099;height: 1000px"></div>
+        <div class="blog_list">
+            <div class="blog">
+
+            </div>
+        </div>
+        <div class="search"></div>
     </div>
 
 
