@@ -11,15 +11,16 @@
     <title>CodePeace</title>
     <link type="text/css" rel="stylesheet" href="/static/css/common/common.css" >
 
+
+
 </head>
 <body>
 <div id="container">
-    <%@ include file="moudle/header.jsp" %>
+    <%@include file="moudle/nav.jsp"%>
+    <%@include file="moudle/header.jsp" %>
 
-
-
-    <div class="main" style="height: 1000px;background-color: #000099">积分的克令肌肤</div>
-    <%@ include file="moudle/footer.jsp" %>
+    <div>a</div>
+    <%@include file="moudle/footer.jsp" %>
 </div>
 
 </body>

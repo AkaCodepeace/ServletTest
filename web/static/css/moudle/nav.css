@@ -1,0 +1,31 @@
+nav {
+    height: 50px;
+    background-color: #282828;
+    border-bottom:#1F2016 solid 2px;
+    font-family: Constantia;
+}
+.nav_img{
+    width: 50px;
+    height: 50px;
+}
+
+.nav_left {
+    float: left;
+    color: #ffffff;
+    font-size: 18px;
+
+}
+
+.nav_right{
+    float: right;
+}
+
+.nav_right ul li{
+    float: left;
+    height: 50px;
+    color: #ffffff;
+    line-height: 50px;
+    margin-left: 30px;
+    padding: 0 10px;
+    font-size: 14px;
+}
