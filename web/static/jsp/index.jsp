@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>CodePeace</title>
-    <meta name="viewport" content="width=device-width; initial-scale=1.4; minimum-scale=1.0; maximum-scale=2.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link type="text/css" rel="stylesheet" href="/static/css/common/common.css" >
     <link type="text/css" rel="stylesheet" href="/static/css/page/index.css">
 </head>
@@ -19,12 +19,44 @@
     <%@include file="moudle/header.jsp" %>
 
     <div class="main">
-        <div class="blog_list">
-            <div class="blog">
+        <div class="index_main">
+            <div class="blog_list">
+                <div>
+                    <div>
+                        <div class="blog_title">
+                            <a>
+                                <h2>java面向对象程序设计</h2>
+                            </a>
+                            <ul>
+                                <li><img src="/static/img/blog/date.svg">2020-9-12</li>
+                                <li><img src="/static/img/blog/author.svg">peace</li>
+                                <li><img src="/static/img/blog/comment.svg">2354121条评论</li>
+                                <li><img src="/static/img/blog/read.svg">1245人阅读</li>
+                            </ul>
+                        </div>
+                        <div class="introduction">
+                            <img src="/static/img/aaa.jpg" >
+                            <p>费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科级
+                                费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科级
+                                费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科级
+                                费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科级
+                                费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科
+                                费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科级
+                                费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科级
+                                费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科级
+                                费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科级
+                                费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科级。
+                            </p>
+                            <a><p>...</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="">
+                <div class="search"></div>
             </div>
         </div>
-        <div class="search"></div>
     </div>
 
 
