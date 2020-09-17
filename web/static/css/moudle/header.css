@@ -1,6 +1,7 @@
 .head{
-    height: 200px;
     background-color: #282828;
+    border-bottom: rgba(0, 0, 0, 1) solid 2px;
+    padding-bottom: 50px;
 }
 
 
@@ -8,13 +9,12 @@
     color: #ffffff;
     text-align: center;
     margin: 0 auto;
-
 }
 
 .head_main div:nth-child(1){
     font-size: 3em;
     margin: 0 auto;
-    width: 60%;
+    width: 50%;
     padding: 20px 0;
     border-bottom: #ffffff double 3px;
     font-family: "Cambria Math";

@@ -1,3 +1,64 @@
 .index_main {
+    overflow: auto;
+}
+.blog_list{
+    float: left;
+    width: 70%;
+}
 
+.blog_list>div {
+    background: #ffffff;
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    border:rgba(0, 0, 0, 0.12) solid 2px;
+    margin:20px 0;
+    text-align: center;
+}
+.blog_list>div div{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.search{
+    background: #ffffff;
+    float: right;
+    width: 25%;
+    height: 40px;
+    border:rgba(0, 0, 0, 0.12) solid 2px;
+    margin-top:20px;
+}
+
+.blog_title {
+    border-bottom: skyblue outset 4px;
+    overflow: auto;
+
+}
+.blog_title h2 {
+    padding: 15px 0;
+    font-size: 24px;
+    font-family: "Bookman Old Style";
+}
+.blog_title ul {
+    padding-bottom: 15px;
+}
+
+.blog_title ul li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: "Cambria Math";
+}
+.introduction{
+    padding-top: 20px;
+}
+
+.introduction p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.introduction img {
+    float: right;
 }
