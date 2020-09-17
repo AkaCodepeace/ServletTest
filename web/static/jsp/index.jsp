@@ -10,8 +10,8 @@
 <head>
     <title>CodePeace</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link type="text/css" rel="stylesheet" href="/static/css/common/common.css" >
-    <link type="text/css" rel="stylesheet" href="/static/css/page/index.css">
+    <link type="text/css" rel="stylesheet" href="/static/css/show/common/common.css" >
+    <link type="text/css" rel="stylesheet" href="/static/css/show/page/index.css">
 </head>
 <body>
 <div class="container" >
@@ -48,12 +48,17 @@
                                 费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科级。
                             </p>
                             <a><p>...</p></a>
+                            <div>阅读全文</div>
+                        </div>
+                        <div class="classify">
+                            标签：<span>java</span>
+                            分类：<span>java</span>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="">
+            <div class="right_side">
                 <div class="search"></div>
             </div>
         </div>

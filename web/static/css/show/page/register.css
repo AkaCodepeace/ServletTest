@@ -1,0 +1,38 @@
+.register{
+    text-align: center;
+    vertical-align: middle;
+    background: #ffffff;
+}
+
+.register_main {
+    margin: 100px auto;
+    border: rgba(0,0,0,0.7) solid 5px;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+}
+
+form {
+    height: 100%;
+    width: 100%;
+    padding: 5px 0;
+}
+
+form div:nth-child(1) {
+    height: 20px;
+    border-bottom: rgba(0,0,0,0.7)  solid 2px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+form > div {
+    padding: 10px;
+}
+form input[type="text"] {
+    border: #000000 1px solid ;
+}
+form  input[type="submit"] {
+    padding: 5px 75px;
+    border-radius: 5px;
+}

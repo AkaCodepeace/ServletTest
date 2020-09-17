@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<link type="text/css"  rel="stylesheet"href="/static/css/moudle/header.css">
+<link type="text/css"  rel="stylesheet"href="/static/css/show/moudle/header.css">
 <header class="head">
     <div class=" head_main" >
         <div >码 平 - C o d e P e a c e</div>

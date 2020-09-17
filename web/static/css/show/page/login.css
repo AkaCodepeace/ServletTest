@@ -1,0 +1,38 @@
+.login {
+    text-align: center;
+    vertical-align: middle;
+    background: #ffffff;
+}
+
+
+.login_main{
+    margin: 100px auto;
+    border: rgba(0,0,0,0.7) solid 5px;
+    border-radius: 10px;
+    width: 400px;
+    padding-bottom: 15px;
+}
+
+form {
+    width: 100%;
+    padding: 5px 0;
+}
+
+form div:nth-child(1) {
+    height: 20px;
+    border-bottom: rgba(0,0,0,0.7)  solid 2px;
+    font-size: 24px;
+}
+
+form > div {
+    padding: 10px 0;
+}
+
+form input[type="text"] {
+    border: #000000 1px solid;
+}
+
+form input[type="submit"] {
+    padding: 5px 55px;
+    border-radius: 5px;
+}
