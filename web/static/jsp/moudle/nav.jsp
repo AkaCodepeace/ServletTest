@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<link type="text/css" rel="stylesheet" href="/static/css/moudle/nav.css">
+<link type="text/css" rel="stylesheet" href="/static/css/show/moudle/nav.css">
  <nav>
      <div class="main">
          <div class="nav_left">
