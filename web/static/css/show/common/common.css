@@ -84,3 +84,16 @@ input::-moz-focus-inner { border: 0; padding: 0;}
     padding-bottom: 100px;
     box-sizing: border-box;
 }
+
+@media all and (max-width: 450px){
+
+    .main{
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 810px){
+    .main{
+        width: 80%;
+    }
+}
