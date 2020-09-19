@@ -34,8 +34,8 @@ nav {
 }
 .menu_button span {
     display: inline-block;
-    width: 80%;
-    height: 3px;
+    width: 70%;
+    height: 2px;
     background: #ffffff;
     border-radius: 50px;
     margin: 3px auto;

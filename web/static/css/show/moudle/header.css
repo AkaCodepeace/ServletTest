@@ -40,9 +40,10 @@
     }
 }
 
-@media all and (max-width: 450px){
+@media all and (max-width: 500px){
     .head_main div:nth-child(1){
         font-size: 1.5em;
+        word-spacing:0px;
     }
     .head_main div:nth-child(2){
         font-size: 12px;
