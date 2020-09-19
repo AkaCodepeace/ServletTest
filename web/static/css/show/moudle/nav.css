@@ -22,6 +22,25 @@ nav {
     float: right;
 }
 
+.menu_button{
+    display: none;
+    float: right;
+    width: 36px;
+    height: 36px;
+    margin: 7px 0px ;
+    border: #ffffff solid 1px;
+    background: #282828;
+    border-radius: 5px;
+}
+.menu_button span {
+    display: inline-block;
+    width: 80%;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 50px;
+    margin: 3px auto;
+}
+
 .nav_right ul li{
     float: left;
     height: 50px;
@@ -32,8 +51,23 @@ nav {
     font-size: 1em;
 }
 
-@media screen and (max-width: 810px){
+@media all and (max-width: 950px){
+    .menu_button {
+        display: block;
+    }
+
     .nav_right{
+        width: 100%;
+    }
+    .nav_right ul {
         display: none;
+        float: right;
+        width: 100%;
+        border: #000000 solid 1px;
+        background: #ffffff;
+    }
+    .nav_right ul li{
+        float: none;
+        color: #000000;
     }
 }
