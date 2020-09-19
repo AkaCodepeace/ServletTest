@@ -20,6 +20,7 @@
 
     <div class="main">
         <div class="index_main">
+            <div class="phone_search"></div>
             <div class="blog_list">
                 <div>
                     <div>

@@ -2,6 +2,7 @@
     background-color: #282828;
     border-bottom: rgba(0, 0, 0, 1) solid 2px;
     padding-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 
@@ -29,7 +30,7 @@
 
 
 
-@media all and (max-width: 810px){
+@media all and (max-width: 950px){
     .head_main div:nth-child(1){
         font-size: 2.1em;
     }
