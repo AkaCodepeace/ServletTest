@@ -92,3 +92,12 @@
     border:rgba(0, 0, 0, 0.12) solid 2px;
     margin-top:20px;
 }
+
+@media all and (max-width: 810px){
+    .right_side{
+        visibility: hidden;
+    }
+    .blog_list{
+        width: 100%;
+    }
+}

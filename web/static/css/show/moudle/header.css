@@ -12,7 +12,7 @@
 }
 
 .head_main div:nth-child(1){
-    font-size: 3em;
+    font-size: 3.5em;
     margin: 0 auto;
     width: 50%;
     padding: 20px 0;
@@ -20,10 +20,32 @@
     font-family: "Cambria Math";
 }
 
-.head_main div:nth-child(2){
-    font-size: 1.3em;
+.head_main div:nth-child(2) {
+    font-size: 1em;
     word-spacing: 30px;
     font-family: Cambria;
     padding: 10px 0;
+}
+
+
+
+@media all and (max-width: 810px){
+    .head_main div:nth-child(1){
+        font-size: 2.1em;
+    }
+    .head_main div:nth-child(2){
+        font-size: 14px;
+        word-spacing:12px;
+    }
+}
+
+@media all and (max-width: 450px){
+    .head_main div:nth-child(1){
+        font-size: 1.5em;
+    }
+    .head_main div:nth-child(2){
+        font-size: 12px;
+        word-spacing:5px;
+    }
 }
 
