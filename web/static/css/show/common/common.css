@@ -85,13 +85,13 @@ input::-moz-focus-inner { border: 0; padding: 0;}
     box-sizing: border-box;
 }
 
-@media all and (max-width: 450px){
+@media all and (max-width: 500px){
     .main{
         width: 95%;
     }
 }
 
-@media all and (min-width: 450px) and (max-width: 950px){
+@media all and (min-width:500px) and (max-width: 950px){
     .main{
         width: 85%;
     }
