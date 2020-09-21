@@ -19,10 +19,10 @@ public class RegisterServlet extends HttpServlet {
 
         if (user != null && username.equals(user.getUsername())) {
             req.setAttribute("error","用户名存在，请重新输入");
-            req.getRequestDispatcher("static/jsp/register.jsp").forward(req,resp);
+            req.getRequestDispatcher("static/jsp/admin/register.jsp").forward(req,resp);
         }else {
             userService.register(username,password);
-            resp.sendRedirect("static/jsp/login.jsp");
+            resp.sendRedirect("static/jsp/admin/login.jsp");
         }
     }
 

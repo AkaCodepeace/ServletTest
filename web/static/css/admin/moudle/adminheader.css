@@ -1,0 +1,35 @@
+header {
+    width: 100%;
+    height: auto;
+    background: #282828;
+    border-bottom: #000000 solid 1px;
+    float: left;
+}
+
+.admin_head {
+    width: 95%;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.admin_head div:nth-child(1) {
+    float: left;
+    line-height: 70px;
+    font-size: 20px;
+    font-family: Cambria;
+    color: #ffffff;
+}
+.admin_head img {
+    width: auto;
+    height: 50px;
+}
+
+.admin_head div:nth-child(2) ul li {
+    float: right;
+    font-size: 16px;
+    height: 70px;
+    line-height: 70px;
+    padding:0 10px;
+    color: #ffffff;
+}
+
