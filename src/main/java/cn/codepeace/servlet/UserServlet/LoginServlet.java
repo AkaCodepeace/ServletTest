@@ -19,10 +19,10 @@ public class LoginServlet extends HttpServlet {
         User user = userService.login(username, password);
         if (user != null && password.equals(user.getPassword()) && username.equals(user.getUsername())) {
             req.getSession().setAttribute(Constants.USER_SESSION,user);
-            resp.sendRedirect("static/jsp/index.jsp");
+            resp.sendRedirect("static/jsp/admin/admin.jsp");
         }else {
             req.setAttribute("error","用户名或密码错误");
-            req.getRequestDispatcher("static/jsp/login.jsp").forward(req,resp);
+            req.getRequestDispatcher("static/jsp/admin/login.jsp").forward(req,resp);
         }
 
     }

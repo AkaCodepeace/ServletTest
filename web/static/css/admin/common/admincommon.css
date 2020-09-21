@@ -32,12 +32,13 @@ sub {vertical-align: text-bottom;}
 
 /* 设置表格的边框被合并为一个单一的边框, 指定分隔边框模型中单元格边界之间的距离为0*/
 table {
-    　　border-collapse: collapse;
-    　　border-spacing: 0;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
 }
 
 /* 表格标题及内容居左显示 */
-caption,th {text-align: left;}
+caption {text-align: left;}
 input,img,select {vertical-align:middle;}
 
 /* 清除列表样式 */
@@ -60,6 +61,8 @@ h1,h2,h3,h4,h5,h6 {
 /* 链接样式，颜色可酌情修改 */
 del,ins,a {text-decoration:none;}
 
+
+
 /* 鼠标样式 */
 input[type="submit"] {cursor: pointer;}
 button {cursor: pointer;}
@@ -67,29 +70,10 @@ input::-moz-focus-inner { border: 0; padding: 0;}
 
 .clear {clear:both;}
 
-/*版心*/
-.main{
-    width: 60%;
-    margin: 0 auto;
-}
-
 .container {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
     position: relative;
-    padding-bottom: 100px;
-    box-sizing: border-box;
+    height: auto !important;
+    min-height: 100%;
+    padding-bottom: 80px;
 }
 
-@media all and (max-width: 500px){
-    .main{
-        width: 95%;
-    }
-}
-
-@media all and (min-width:500px) and (max-width: 950px){
-    .main{
-        width: 85%;
-    }
-}

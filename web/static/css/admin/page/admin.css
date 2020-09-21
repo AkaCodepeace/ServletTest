@@ -1,0 +1,88 @@
+.main_right {
+    float: right;
+    width: 80%;
+}
+
+.main_right>div {
+    background: rgba(0,0,0,0.04);
+    width: 90%;
+    margin:20px auto;
+    border: rgba(0,0,0,0.01) solid 3px;
+    border-radius: 10px;
+}
+.blog_manage {
+    width: 90%;
+    margin: 25px auto;
+}
+
+.blog_search {
+    margin-bottom: 20px;
+}
+
+.blog_search  input {
+    height: 25px;
+    border: #282828 solid 1px;
+}
+.blog_search  input:first-child {
+    width: 150px;
+
+}
+
+.blog_search  input[type="button"] {
+    background: #282828;
+    color: #ffffff;
+    padding: 0 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+ tr  th, td{
+    border-bottom: rgba(0,0,0,0.7) solid 2px;
+     border-right: rgba(0,0,0,0.7) solid 2px;
+}
+ tr th {
+     border-top: rgba(0,0,0,0.7) solid 2px;
+     width: 80%;
+ }
+ tr th:first-child{
+     border-left: rgba(0,0,0,0.7) solid 2px;
+ }
+
+ tr td:first-child {
+     border-left: rgba(0,0,0,0.7) solid 2px;
+ }
+
+ table tr th:first-child{
+     border-top-left-radius: 5px;
+ }
+
+table tr th:last-child{
+    border-top-right-radius: 5px;
+}
+table tr:last-child td:first-child{
+    border-bottom-left-radius: 5px;
+}
+
+table tr:last-child td:last-child{
+    border-bottom-right-radius: 5px;
+}
+
+table tr td {
+    padding: 10px  10px;
+}
+
+table tr td:last-child  input{
+    padding: 3px 10px;
+    border: #282828 solid 1px;
+    border-radius: 5px;
+}
+
+table tr td:last-child  input:first-child {
+    background: #568497;
+}
+
+table tr td:last-child  input:last-child {
+    background: #ff3333;
+}
+
+
