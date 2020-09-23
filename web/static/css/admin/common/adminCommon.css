@@ -30,12 +30,7 @@ address,caption,cite,code,dfn,em,strong,th,var {
 sup {vertical-align: text-top;}
 sub {vertical-align: text-bottom;}
 
-/* 设置表格的边框被合并为一个单一的边框, 指定分隔边框模型中单元格边界之间的距离为0*/
-table {
-    border-collapse: separate;
-    border-spacing: 0;
-    width: 100%;
-}
+
 
 /* 表格标题及内容居左显示 */
 caption {text-align: left;}
@@ -60,6 +55,9 @@ h1,h2,h3,h4,h5,h6 {
 
 /* 链接样式，颜色可酌情修改 */
 del,ins,a {text-decoration:none;}
+a {
+    color: #ffffff;
+}
 
 
 
@@ -75,5 +73,9 @@ input::-moz-focus-inner { border: 0; padding: 0;}
     height: auto !important;
     min-height: 100%;
     padding-bottom: 80px;
+    overflow: hidden;
 }
+
+
+
 

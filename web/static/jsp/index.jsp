@@ -72,6 +72,6 @@
 </body>
 
 <script type="text/javascript" src="/static/jq/jquery-3.5.1.min.js"/>
-<script type="text/javascript" src="/static/js/index.js"/>
+<script type="text/javascript" src="/static/js/show/index.js"/>
 
 </html>
