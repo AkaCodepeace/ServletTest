@@ -20,8 +20,8 @@
     <div>
         <%@include file="/static/jsp/admin/moudle/adminNav.jsp"%>
         <div class="main_right">
-            <div >
-                <div class="manage">
+            <div class="manage">
+                <div class="manage_main">
                     <div class="search">
                         <input type="text">
                         <input type="button" value="查询">

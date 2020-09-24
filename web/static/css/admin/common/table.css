@@ -66,15 +66,18 @@ change_main {
     width: 80%;
     margin-top: 100px;
 }
+.container>div{
+    overflow: hidden;
+}
 
-.container>div>div:nth-child(2)>div {
+.manage {
     background: rgba(0,0,0,0.04);
     width: 90%;
     margin:20px auto;
     border: rgba(0,0,0,0.01) solid 3px;
     border-radius: 10px;
 }
-.manage {
+.manage_main {
     width: 90%;
     margin: 25px auto;
 }
