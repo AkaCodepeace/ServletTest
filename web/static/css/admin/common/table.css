@@ -1,0 +1,105 @@
+/* 设置表格的边框被合并为一个单一的边框, 指定分隔边框模型中单元格边界之间的距离为0*/
+/*表格整套样式加查询*/
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+tr  th, td{
+    border-bottom: rgba(0,0,0,0.7) solid 2px;
+    border-right: rgba(0,0,0,0.7) solid 2px;
+}
+tr th {
+    border-top: rgba(0,0,0,0.7) solid 2px;
+    width: 80%;
+}
+tr th:first-child{
+    border-left: rgba(0,0,0,0.7) solid 2px;
+}
+
+tr td:first-child {
+    border-left: rgba(0,0,0,0.7) solid 2px;
+}
+
+table tr th:first-child{
+    border-top-left-radius: 5px;
+}
+
+table tr th:last-child{
+    border-top-right-radius: 5px;
+}
+table tr:last-child td:first-child{
+    border-bottom-left-radius: 5px;
+}
+
+table tr:last-child td:last-child{
+    border-bottom-right-radius: 5px;
+}
+
+table tr td {
+    padding: 10px  10px;
+}
+
+table tr td:last-child  input{
+    padding: 3px 10px;
+    border: #282828 solid 1px;
+    border-radius: 5px;
+}
+
+table tr td:last-child  input:first-child {
+    background: #568497;
+}
+
+table tr td:last-child  input:last-child {
+    background: #ff3333;
+}
+
+
+/*查询*/
+.main_right {
+    float: right;
+    height: 100%;
+    width: 80%;
+}
+change_main {
+    width: 80%;
+    margin-top: 100px;
+}
+.container>div{
+    overflow: hidden;
+}
+
+.manage {
+    background: rgba(0,0,0,0.04);
+    width: 90%;
+    margin:20px auto;
+    border: rgba(0,0,0,0.01) solid 3px;
+    border-radius: 10px;
+}
+.manage_main {
+    width: 90%;
+    margin: 25px auto;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.search  input {
+    height: 25px;
+    border: #282828 solid 1px;
+}
+.search  input:first-child {
+    width: 150px;
+
+}
+
+.search  input[type="button"] {
+    background: #282828;
+    color: #ffffff;
+    padding: 0 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
