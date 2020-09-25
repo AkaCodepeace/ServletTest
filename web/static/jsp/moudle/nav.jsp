@@ -3,7 +3,7 @@
  <nav>
      <div class="main">
          <div class="nav_left">
-             <img class="nav_img" src="/static/img/head.png">
+             <img class="nav_img" src="/static/img/logo.png">
               码 平 - CODEPEACE
          </div>
          <button class="menu_button">

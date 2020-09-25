@@ -3,7 +3,7 @@
 <header>
     <div class="admin_head">
         <div>
-            <img src="/static/img/head.png">
+            <img src="/static/img/logo.png">
             CodePeace - 码平后台管理系统
         </div>
         <div>

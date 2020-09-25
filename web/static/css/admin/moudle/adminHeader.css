@@ -11,10 +11,11 @@ header {
     margin: 0 auto;
 }
 
-.admin_head div:nth-child(1) {
+.admin_head div:first-child {
     float: left;
-    line-height: 70px;
     font-size: 20px;
+    height: 70px;
+    line-height: 70px;
     font-family: Cambria;
     color: #ffffff;
 }
@@ -23,7 +24,7 @@ header {
     height: 50px;
 }
 
-.admin_head div:nth-child(2) ul li {
+.admin_head div:last-child ul li {
     float: right;
     font-size: 16px;
     height: 70px;
