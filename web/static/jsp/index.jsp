@@ -36,7 +36,7 @@
                             </ul>
                         </div>
                         <div class="introduction">
-                            <img src="/static/img/aaa.jpg" >
+                            <img src="/static/img/logo.png" >
                             <p>费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科级
                                 费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科级
                                 费覅胡椒粉ifhi喊个韩哥以建瓯市即丢回复电话费对方就偶尔开发副科级
